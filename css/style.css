@@ -1,0 +1,744 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* HEADER */
+
+.header {
+    background-color: #65256F;
+    height: 30px;
+    margin: auto 0;
+}
+
+header {
+    box-shadow: 10px 0 10px 0 rgba(26, 12, 12, 0.516);
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.header_nomer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.5%;
+}
+
+.header_tel {
+    display: flex;
+}
+
+.header_nomer li {
+    list-style: none;
+    color: #FFB700;
+    font-size: 14px;
+    font-family: Gilroy;
+}
+
+.header_tel p {
+    list-style: none;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: Gilroy;
+    margin-right: 24px;
+}
+
+/* /////////////////////////////////////////////////// */
+.header_nav {
+    display: flex;
+    align-items: center;
+}
+
+.header_nav li {
+    list-style: none;
+}
+
+.header_nav a {
+    text-decoration: none;
+    padding: 20px;
+    color: #2A2828;
+}
+
+.button {
+    width: 168px;
+    height: 43px;
+    background: #65256F;
+    border-radius: 3px;
+    color: #ffffff;
+    margin-left: 30px;
+}
+
+.header_menu {
+    display: flex;
+    list-style: none;
+    color: #2A2828;
+    font-size: 14px;
+    font-family: Montserrat;
+    justify-content: space-between;
+}
+
+.header_logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ////////////////////////////////////////////////// */
+#banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.651), rgba(26, 12, 12, 0.516)), url(../img/banner.jpg);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.banner_p {
+    display: flex;
+    font-size: 12px;
+    font-family: Gilroy;
+    color: #fffFFFFF;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50%;
+}
+
+.banner_p h1 {
+    font-size: 67px;
+    font-family: Gilroy;
+    color: #FFFFFF;
+    width: 68%;
+    height: 25%;
+}
+
+.banner_p p {
+    font-size: 36px;
+    font-family: Gilroy;
+    color: #FFFFFF;
+    display: flex;
+    width: 70%;
+    margin: o auto;
+}
+
+.banner_p button {
+    font-size: 18px;
+    font-family: Gilroy;
+    background-color: #FFC957;
+    color: #000000;
+    width: 23%;
+    height: 15%;
+    margin-left: 0 auto;
+}
+
+.banner_logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 30%;
+}
+
+
+/* MAIN */
+
+main {
+    margin: 0;
+}
+
+/* SECTION_1 */
+.section_1 {
+    margin: 50px;
+    position: relative;
+}
+
+.section_1 h2 {
+    text-align: center;
+    font-size: 48px;
+    font-family: Gilroy;
+    color: #000000;
+    margin: 80px;
+}
+
+.container_table {
+    display: inline-flex;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container_table p {
+    font-size: 18px;
+    font-family: "Gilroy";
+    text-align: center;
+}
+
+.container_table a {
+    text-decoration: none;
+    color: #753ED6;
+    text-align: center;
+}
+
+
+/* SECTION_2 */
+
+.section_2 {
+    margin: 40px;
+    position: relative;
+}
+
+.container_block {
+    display: flex;
+    justify-content: center;
+}
+
+.container_block2 {
+    display: flex;
+    justify-content: center;
+}
+
+.section_2 h2 {
+    text-align: center;
+    font-size: 48px;
+    font-family: Gilroy;
+    color: #000000;
+    margin: 20px;
+}
+
+.container_block2 p {
+    position: absolute;
+}
+
+.section_2 button {
+    background: #65256F;
+    border-radius: 3px;
+    position: absolute;
+    width: 368px;
+    height: 52px;
+    margin: 40px 500px;
+    color: white;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.block {
+    margin: 12px;
+}
+
+
+/* SECTION_3 */
+.section_3 {
+    margin-top: 150px;
+}
+
+.section_3 h2 {
+    text-align: center;
+    font-size: 48px;
+    font-family: Gilroy;
+    color: #000000;
+    margin: 20px;
+}
+
+.container_mini {
+    display: flex;
+    justify-content: center;
+}
+
+.container_mini img {
+    margin: 16px;
+}
+
+
+/* SECTION_4 */
+
+.section_4 {
+    margin: 50px;
+}
+
+.section_4 h2 {
+    text-align: center;
+    font-size: 48px;
+    font-family: Gilroy;
+    color: #000000;
+    margin: 20px;
+}
+
+.container_price1 {
+    display: flex;
+    justify-content: center;
+}
+
+.container_price2 {
+    display: flex;
+}
+
+.price a {
+    text-decoration: none;
+}
+
+.section_4 button {
+    background: #65256F;
+    border-radius: 3px;
+    position: absolute;
+    width: 368px;
+    height: 52px;
+    margin: 40px 500px;
+    color: white;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+/* SECTION_5 */
+
+.section_5 {
+    margin-top: 150px;
+}
+
+.section_5 h2 {
+    text-align: center;
+    font-size: 48px;
+    font-family: Gilroy;
+    color: #000000;
+    margin: 20px;
+}
+
+.container_nike {
+    display: flex;
+    justify-content: center;
+}
+
+.container_nike img {
+    margin: 16px;
+}
+
+
+/* SECTION_6*/
+
+.section_6 {
+    margin-top: 150px;
+}
+
+.section_6 h2 {
+    text-align: center;
+    font-size: 48px;
+    font-family: Gilroy;
+    color: #000000;
+    margin: 20px;
+}
+
+.container_person {
+    display: flex;
+    justify-content: center;
+}
+
+.person {
+    margin-right: 30px;
+}
+
+.person h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin: 10px;
+}
+
+.person p {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #6F6C6C;
+}
+
+.container_contact {
+    margin: 60px;
+}
+
+.container_contact b {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    color: #343434;
+}
+
+.container_contact p {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #585858;
+    text-align: center;
+}
+
+.container_contact input {
+    width: 309px;
+    height: 47px;
+    background: #ECE8E8;
+    border-radius: 3px;
+    border-color: #ECE8E8;
+    margin: 40px 40px;
+
+}
+
+.container_contact button {
+    background: #65256F;
+    border-radius: 3px;
+    width: 326px;
+    height: 47px;
+    margin: 40px 50px;
+    color: white;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+
+/* /////////   FOOTER  ///////////// */
+footer {
+    width: 100%;
+    height: 324px;
+    background: #3A3A3A;
+}
+
+.container_footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 90px;
+}
+
+.footer_info h3 {
+    color: #FFFFFF;
+    margin: 10px 30px;
+    font-size: 16px;
+    font-family: Montserrat;
+}
+
+.footer_info p {
+    margin: 10px 30px;
+    width: 127px;
+    height: 17px;
+    left: 738px;
+    top: 5570px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    color: #BCBBBB;
+}
+
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+                                            ----------INDEX2 -----------
+                                            ----------MAIN -----------
+
+                                !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+
+main h2 {
+    font-size: 48px;
+    font-family: Gilroy;
+    text-align: center;
+    font-style: normal;
+}
+
+.container_fotoblock1 {
+    display: flex;
+    justify-content: center;
+}
+
+.container_fotoblock1 img {
+    margin: 10px;
+}
+
+.container_fotoblock1 p {
+    position: absolute;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-size: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 100px 50px 0 20px;
+}
+
+.container_fotoblock2 {
+    display: flex;
+    justify-content: center;
+}
+
+.container_fotoblock2 img {
+    margin: 0 10px;
+}
+
+.container_fotoblock2 p {
+    position: absolute;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-size: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 100px 50px 0 20px;
+}
+
+section h2 {
+    font-size: 36px;
+    font-family: Gilroy;
+    color: #000000;
+    text-align: center;
+    margin: 40px;
+}
+
+.container_footerimg {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 150px;
+    text-align: center;
+}
+
+.container_footerimg img {
+    margin-bottom: 10px;
+}
+
+.container_contact .inbut {
+    display: flex;
+    justify-content: space-around;
+}
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+                                            ----------INDEX3 -----------
+                                            ----------MAIN -----------
+
+                                !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+.people img {
+    margin: 50px 150px;
+}
+
+.text p {
+    text-align: center;
+    margin: 30px 80px;
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 18px;
+    color: #4C4C54;
+}
+
+.job h2 {
+    margin: 50px;
+}
+
+.downfoto {
+    width: 100%;
+    height: 445px;
+    background: url(../img/Rectangle\ 161.png);
+    background-size: cover;
+    display: flex;
+}
+
+.fon {
+    align-items: center;
+}
+
+.downfoto h6 {
+    text-align: center;
+    font-size: 36px;
+    color: white;
+}
+
+.fon img {
+    width: 100px;
+    height: 97.56px;
+}
+
+.fon {
+    display: flex;
+    text-align: center;
+}
+
+.fon p,
+h4 {
+    color: white;
+    font-size: 14px;
+    font-family: Gilroy;
+}
+
+.container_footerimg {
+    margin: 30px;
+}
+
+.container_index3nike {
+    display: block;
+}
+
+.nike1 {
+    display: flex;
+    justify-content: center;
+}
+
+.nike2 {
+    display: flex;
+    justify-content: center;
+}
+
+.index3_clock {
+    margin: 60px;
+}
+
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+                                            ----------INDEX4 -----------
+                                            ----------MAIN -----------
+
+                                !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.container_main {
+    display: flex;
+    margin: 40px 60px;
+}
+
+.container_main h6 {
+    color: #A4A4A4;
+    font-size: 24px;
+    font-family: 'Gilroy';
+    margin-left: 15px;
+}
+
+.index4clock {
+    display: flex;
+    margin: 30px 50px 0px 50px;
+}
+
+.container_index4clock p {
+    margin: 10px 70px 1px 90px;
+}
+
+.index4phone {
+    display: flex;
+    margin: 30px 50px 0px 50px;
+}
+
+.container_index4phone p {
+    margin: 10px 70px 1px 90px;
+}
+
+.index4loc {
+    display: flex;
+    margin: 30px 50px 0px 50px;
+}
+
+.container_index4loc p {
+    margin: 10px 70px 1px 90px;
+}
+
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+                                            ----------INDEX5 -----------
+                                            ----------MAIN -----------
+
+                                !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+
+.container_collage {
+    display: flex;
+    justify-content: center;
+}
+
+.foto1 img {
+    width: 568px;
+    height: 564px;
+}
+
+.collage1 img {
+    margin: 10px;
+}
+
+.collage2 img {
+    margin: 10px;
+}
+
+.foto1 p {
+    position: absolute;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 24px;
+}
+
+.foto2 p {
+    position: absolute;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 24px;
+}
+
+.foto3 {
+    display: flex;
+}
+
+.foto3 p {
+    position: absolute;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 24px;
+}
+
+.col2_foto1 {
+    display: flex;
+}
+
+.col2_foto1 p {
+    position: absolute;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 24px;
+}
+
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+                                            ----------INDEX6-----------
+                                            ----------MAIN -----------
+
+                                !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.product_img {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 90px;
+}
+
+.text p {
+    margin: 10px 100px;
+}
+
+.img img {
+    margin: 40px 10px 40px 100px;
+    width: 1290px;
+    height: 326px;
+}
+
+.img p {
+    position: absolute;
+    color: rgb(253, 249, 249);
+    font-family: 'Montserrat';
+    font-size: 24px;
+    margin-top: 320px;
+    margin-left: 509px;
+}
